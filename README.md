@@ -1,0 +1,2 @@
+# EclipseFullscreen
+Eclipse Fullscreen Plugin
