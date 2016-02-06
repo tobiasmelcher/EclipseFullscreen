@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+     <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="zenMode.actionSet"
+            label="Zen Mode Action Set"
+            visible="true">
+         <menu
+               id="sampleMenu"
+               label="Sample &amp;Menu">
+            <separator
+                  name="zenModeGroup">
+            </separator>
+         </menu>
+         <action
+               class="melcher.ToggleFullscreenAction"
+               id="melcher.ToggleFullscreenAction"
+               label="Toggle Fullscreen"
+               menubarPath="Help/zenModeGroup"
+               tooltip="Toggle Fullscreen">
+         </action>
+         <action
+               class="melcher.ToggleTaskbarAction"
+               id="melcher.ToggleTaskbarAction"
+               label="Toggle Taskbar"
+               menubarPath="Help/zenModeGroup"
+               tooltip="Toggle Taskbar">
+         </action>
+         <action
+               class="melcher.TogglePartTitleAction"
+               id="melcher.TogglePartTitleAction"
+               label="Toggle PartTitle"
+               menubarPath="Help/zenModeGroup"
+               tooltip="Toggle PartTitle">
+         </action>
+      </actionSet>
+   </extension>
+</plugin>

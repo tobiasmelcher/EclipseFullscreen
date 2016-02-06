@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: fullscreen
+Bundle-SymbolicName: fullscreen;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: melcher.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.e4.ui.model.workbench,
+ org.eclipse.e4.core.contexts,
+ org.eclipse.e4.ui.workbench,
+ org.eclipse.ui.workbench.texteditor
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
